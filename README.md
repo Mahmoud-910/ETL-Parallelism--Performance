@@ -30,14 +30,12 @@ System.Threading.Tasks and Parallel.For for concurrency
 
 Technique	Execution Time (ms)
 
-Combined (SIMD + Data Parallel)	23.57
-SIMD + ILP (Refactored)	40.08
-Data Parallel (Refactored)	53.08
-Task Parallel (Refactored)	100.09
-Sequential	114.51
-Pipeline Parallel	6241.04
-
-
+Combined (SIMD + Data Parallel): 24.23 ms
+SIMD + ILP (Refactored): 49.35 ms
+Data Parallel (Refactored): 53.50 ms
+Task Parallel (Refactored): 99.33 ms
+Sequential: 192.44 ms
+Pipeline Parallel: 7215.06 ms
 📈 Chart Output
 
 
